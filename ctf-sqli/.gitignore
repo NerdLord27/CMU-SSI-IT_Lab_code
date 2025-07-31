@@ -1,5 +1,4 @@
 # Database files
-*.sql
 *.db
 
 # Environment files
