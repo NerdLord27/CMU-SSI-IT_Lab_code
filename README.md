@@ -5,7 +5,7 @@ A deliberately vulnerable login system designed for learning SQL injection techn
 ## Prerequisites
 
 - **Windows**: XAMPP (recommended) or individual Apache/MySQL/PHP installation
-- **Linux/Mac**: LAMP stack or individual components
+- **Linux/Mac**: XAMPP, LAMP stack, or individual components
 - PHP 7.4+ with PDO MySQL extension
 - MySQL/MariaDB server
 - Web server (Apache/Nginx) or PHP built-in server
@@ -28,8 +28,8 @@ A deliberately vulnerable login system designed for learning SQL injection techn
 
 #### 3. Deploy Application Files
 1. Navigate to: `C:\xampp\htdocs\`
-2. Create folder: `ctf-sqli`
-3. Copy all project files to `C:\xampp\htdocs\ctf-sqli\`:
+2. Create folder: `ctf-sql`
+3. Copy all project files to `C:\xampp\htdocs\ctf-sql\`:
    - `index.html`
    - `login.php`
    - `db.php`
