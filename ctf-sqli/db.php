@@ -1,7 +1,7 @@
 <?php
 // Database connection configuration
 $host = $_ENV['DB_HOST'] ?? 'localhost';
-$dbname = $_ENV['DB_NAME'] ?? 'ctf_sqli';
+$dbname = $_ENV['DB_NAME'] ?? 'ctf_sql';
 $username = $_ENV['DB_USER'] ?? 'root';
 $password = $_ENV['DB_PASS'] ?? 'password';
 

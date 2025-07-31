@@ -2,9 +2,6 @@
 *.sql
 *.db
 
-# Scoreboard data
-scores.json
-
 # Environment files
 .env
 
