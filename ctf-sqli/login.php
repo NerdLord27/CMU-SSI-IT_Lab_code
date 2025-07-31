@@ -106,13 +106,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <div class="container">
                 <div class="success-container">
                     <div class="error-message">
-                        <h3>⚠️ System Error</h3>
+                        <h3>System Error</h3>
                         <p>We're experiencing technical difficulties. Please try again later.</p>
                         <p style="margin-top: 10px; font-size: 14px;">If the problem persists, contact IT Support immediately.</p>
                     </div>
                     
                     <div style="margin: 20px 0; padding: 15px; background: #fff3cd; border-radius: 8px; border-left: 4px solid #ffc107;">
-                        <h4 style="color: #856404; margin-bottom: 10px;">📞 Support Information</h4>
+                        <h4 style="color: #856404; margin-bottom: 10px;">Support Information</h4>
                         <p style="margin: 0; color: #856404; font-size: 14px;">IT Helpdesk: ext. 1234 | Email: support@securecorp.com</p>
                     </div>
                     
