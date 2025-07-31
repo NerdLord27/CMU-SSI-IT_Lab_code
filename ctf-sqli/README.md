@@ -1,16 +1,16 @@
-# 🏴‍☠️ SQL Injection CTF Challenge
+# SQL Injection CTF Challenge
 
 A deliberately vulnerable login system designed for learning SQL injection techniques in a safe environment. This CTF challenge simulates a corporate employee portal with intentionally vulnerable authentication.
 
-## 📋 Prerequisites
+## Prerequisites
 
 - PHP 7.4+ with PDO MySQL extension
 - MySQL/MariaDB server
 - Web server (Apache/Nginx) or PHP built-in server
 
-## 🚀 Quick Setup
+## Quick Setup
 
-### Option 1: Manual Setup
+### Manual Setup
 
 #### 1. Database Setup
 ```bash
@@ -51,7 +51,7 @@ php -S localhost:8000
 #### 4. Access the Application
 Open your browser and navigate to: `http://localhost:8000`
 
-## 🎯 CTF Challenge
+## CTF Challenge
 
 ### Objective
 Bypass the login authentication using SQL injection to retrieve the hidden CTF flags from the SecureCorp employee portal.
@@ -63,7 +63,7 @@ Bypass the login authentication using SQL injection to retrieve the hidden CTF f
 - Username: `guest`, Password: `DontHackME`
 - Username: `superadmin`, Password: `potato` (hidden user)
 
-## 🔥 SQL Injection Examples
+## SQL Injection Examples
 
 ### Basic Authentication Bypass
 ```
@@ -109,7 +109,7 @@ Username: ' UNION SELECT 1,2,3,4,@@version --
 Password: anything
 ```
 
-## 🏆 CTF Flags
+## CTF Flags
 
 The application contains multiple flags to discover:
 
@@ -119,9 +119,9 @@ The application contains multiple flags to discover:
 4. **FLAG{GUEST_PRIVILEGES_ESCALATED}** - Guest user flag
 5. **FLAG{SUPER_ADMIN_ACCESS_ACHIEVED}** - Hidden superadmin flag
 
-## 🛡️ Security Notes
+## Security Notes
 
-⚠️ **IMPORTANT**: This application is intentionally vulnerable for educational purposes only. Never deploy this code in a production environment!
+**IMPORTANT**: This application is intentionally vulnerable for educational purposes only. Never deploy this code in a production environment!
 
 ### Vulnerabilities Included:
 - No input sanitization
@@ -138,7 +138,7 @@ The application contains multiple flags to discover:
 4. Hide error messages
 5. Use parameterized queries
 
-## 📁 File Structure
+## File Structure
 
 ```
 ctf-sqli/
@@ -151,7 +151,7 @@ ctf-sqli/
 └── README.md           # This file
 ```
 
-## 🎓 Learning Objectives
+## Learning Objectives
 
 1. Understand SQL injection vulnerabilities
 2. Learn common injection techniques
@@ -160,7 +160,7 @@ ctf-sqli/
 5. Learn secure coding practices
 6. Experience real-world application security testing
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 ### Common Issues:
 
@@ -181,7 +181,7 @@ ctf-sqli/
    - Check if your web server supports environment variables
    - Fall back to editing `db.php` directly
 
-## 📚 Additional Resources
+## Additional Resources
 
 - [OWASP SQL Injection Guide](https://owasp.org/www-community/attacks/SQL_Injection)
 - [SQL Injection Cheat Sheet](https://portswigger.net/web-security/sql-injection/cheat-sheet)
