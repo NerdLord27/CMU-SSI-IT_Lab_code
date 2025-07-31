@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+}
+
+.container {
+    width: 100%;
+    max-width: 450px;
+    padding: 20px;
+}
+
+.login-box {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    padding: 40px;
+    text-align: center;
+}
+
+.logo h1 {
+    color: #1e3c72;
+    margin-bottom: 5px;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+.tagline {
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.header h2 {
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.header p {
+    color: #666;
+    margin-bottom: 35px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.form-group {
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 14px 16px;
+    border: 2px solid #e1e5e9;
+    border-radius: 8px;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    background: #fafbfc;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #1e3c72;
+    background: white;
+    box-shadow: 0 0 0 3px rgba(30, 60, 114, 0.1);
+}
+
+.form-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #666;
+}
+
+.checkbox-container input {
+    margin-right: 8px;
+    width: auto;
+}
+
+.forgot-password {
+    color: #1e3c72;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 14px;
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(30, 60, 114, 0.3);
+}
+
+.login-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(30, 60, 114, 0.4);
+}
+
+.login-btn:active {
+    transform: translateY(0);
+}
+
+.footer {
+    margin-top: 35px;
+    padding-top: 25px;
+    border-top: 1px solid #e1e5e9;
+}
+
+.footer p {
+    color: #666;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+/* Success page styling */
+.success-container {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    padding: 40px;
+    text-align: center;
+    max-width: 500px;
+}
+
+.success-header {
+    color: #28a745;
+    margin-bottom: 25px;
+}
+
+.success-header h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #28a745;
+}
+
+.success-header p {
+    color: #666;
+    font-size: 16px;
+}
+
+.welcome-message {
+    background: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 25px 0;
+}
+
+.welcome-message h3 {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.user-info {
+    background: #e7f3ff;
+    border: 1px solid #b3d9ff;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: left;
+}
+
+.user-info h4 {
+    color: #1e3c72;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.user-info p {
+    color: #333;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    word-break: break-all;
+    background: white;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.error-message {
+    background: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+
+.error-message h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.back-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background: #6c757d;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    margin-top: 20px;
+    transition: background 0.3s ease;
+    font-weight: 500;
+}
+
+.back-btn:hover {
+    background: #5a6268;
+}
+
+/* Responsive design */
+@media (max-width: 480px) {
+    .container {
+        padding: 10px;
+    }
+    
+    .login-box {
+        padding: 30px 20px;
+    }
+    
+    .form-options {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+} 

@@ -1,0 +1,24 @@
+# Database files
+*.sql
+*.db
+
+# Scoreboard data
+scores.json
+
+# Environment files
+.env
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db 
