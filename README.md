@@ -187,3 +187,4 @@ ctf-sqli/
 - [SQL Injection Cheat Sheet](https://portswigger.net/web-security/sql-injection/cheat-sheet)
 - [PHP Security Best Practices](https://www.php.net/manual/en/security.php)
 
+NOTE: README made by AI
