@@ -43,7 +43,7 @@ A deliberately vulnerable login system designed for learning SQL injection techn
 4. Choose `setup.sql` file → Click "Go"
 
 #### 5. Configure Database Connection
-Edit `C:\xampp\htdocs\ctf-sqli\db.php`:
+Edit `C:\xampp\htdocs\ctf-sql\db.php`:
 ```php
 $host = 'localhost';
 $dbname = 'ctf_sql';
@@ -52,7 +52,7 @@ $password = ''; // XAMPP MySQL has no password by default
 ```
 
 #### 6. Access the Application
-Open browser and navigate to: `http://localhost/ctf-sqli/`
+Open browser and navigate to: `http://localhost/ctf-sql/`
 
 ### Option 2: Manual Setup (Advanced Users)
 
@@ -89,7 +89,7 @@ $password = 'your_password';
 # Using PHP built-in server
 php -S localhost:8000
 
-# Or configure your web server to serve the ctf-sqli directory
+# Or configure your web server to serve the ctf-sql directory
 ```
 
 #### 4. Access the Application
@@ -225,7 +225,7 @@ ctf-sql/
    - Verify credentials in `db.php`
 
 4. **Page Not Found (404)**
-   - Confirm files are in `C:\xampp\htdocs\ctf-sqli\`
+   - Confirm files are in `C:\xampp\htdocs\ctf-sql\`
    - Check Apache is running
    - Try accessing `http://localhost/` first
 
